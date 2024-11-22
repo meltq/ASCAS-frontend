@@ -1,0 +1,46 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Distribution / Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Log files
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Large libraries and binaries
+*.dll
+*.pyd
+*.so
+
+# Node.js dependencies
+node_modules/
+
+# Environment variable files
+.env
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Generated files
+*.lock

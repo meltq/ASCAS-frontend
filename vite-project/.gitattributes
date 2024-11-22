@@ -1,0 +1,11 @@
+# Ensure all text files use LF line endings
+* text=auto
+
+# Specific overrides
+*.sh eol=lf
+*.js eol=lf
+*.jsx eol=lf
+*.css eol=lf
+*.html eol=lf
+*.json eol=lf
+*.md eol=lf

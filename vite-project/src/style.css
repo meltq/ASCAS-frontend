@@ -1,0 +1,309 @@
+.modal {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  h2, h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  .orbital-equation {
+    font-size: 1.5rem; /* Make it larger */
+    font-weight: bold; /* Make it bold */
+    color: #FFD700; /* Gold color to make it stand out */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 10px; /* Space above the element */
+    text-align: center; /* Center the text */
+    border: 2px solid #FFD700; /* Gold border */
+  }
+  
+  /* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #111; /* Dark background for better contrast */
+  color: #eaeaea; /* Light text color */
+}
+
+h2 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+button {
+  background: linear-gradient(145deg, #3a3a3a, #1c1c1c);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px #0c0c0c,
+              -5px -5px 15px #252525;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(145deg, #1c1c1c, #3a3a3a);
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 25px #0c0c0c,
+              -5px -5px 25px #252525;
+}
+
+.text-red-500 {
+  color: #ff4d4d; /* Bright red for error messages */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Flex container styles */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Styles for satellite cards */
+.border {
+  border: none; /* Remove default border */
+}
+
+.bg-gray-800 {
+  background: linear-gradient(145deg, #2c2c2c, #1a1a1a);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5),
+              -10px -10px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Title and text styles */
+h3 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Modal Styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent overlay */
+}
+
+.ReactModal__Content {
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #3a3a3a, #1c1c1c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: relative;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1d1d1d, #2c2c2c); /* Dark gradient background */
+  color: #eaeaea;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+header {
+  background: rgba(0, 0, 0, 0.85); /* Semi-transparent header */
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #ffcc00; /* Bright yellow for links */
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: rgba(255, 204, 0, 0.2); /* Light hover effect */
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+button {
+  background: linear-gradient(145deg, #3a3a3a, #1c1c1c);
+  border: none;
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px #0c0c0c, -5px -5px 15px #252525;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(145deg, #1c1c1c, #3a3a3a);
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 25px #0c0c0c, -5px -5px 25px #252525;
+}
+
+.text-red-500 {
+  color: #ff4d4d; /* Bright red for error messages */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Flex container styles */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Styles */
+.card {
+  background: linear-gradient(145deg, #3a3a3a, #1c1c1c);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.6), -15px -15px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Title and text styles */
+h3, h4 {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Modal Styles */
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent overlay */
+}
+
+.ReactModal__Content {
+  border: none;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #3a3a3a, #1c1c1c);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+/* Form Styles */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+input:focus, textarea:focus {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+}
+
+/* Add any custom styles you want here */
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+button {
+  transition: background-color 0.3s;
+}
